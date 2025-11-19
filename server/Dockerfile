@@ -7,7 +7,10 @@ RUN npm install
 
 COPY . .
 
+# Compila TypeScript
 RUN npm run build
 
 EXPOSE 5000
-CMD ["node", "dist/server.js"]
+
+# Ejecuta JS compilado
+CMD ["npm", "start"]
