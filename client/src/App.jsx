@@ -90,7 +90,7 @@ function App() {
   return (
     <>
       <div className="min-h-screen max-h-screen grid grid-cols-8 grid-rows-8 bg-slate-500">
-        <div className="col-start-2 col-span-5 m-4 flex justify-center items-center  gap-2">
+        <div className="col-start-2 col-span-5 m-4 flex justify-center items-center gap-2 animate-fadeIn">
           <h1 className="h-fit text-6xl text-white font-bold">Mis tareas</h1>
           <FaClipboardList size={60} className="text-white p-2" />
         </div>
